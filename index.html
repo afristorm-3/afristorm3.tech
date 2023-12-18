@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Temitope Owolabi | Software Engineer</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+  <div class="divider"></div>
+    <header>
+      <div class="left-side">
+        <a
+          href="#" target="_blank"
+          rel="noopener noreferrer"
+        >
+           <img src="img/Cpp-icon.png" alt="Temitope Owolabi" />
+        </a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="index.html">Home</a></div>
+        
+        <div class="nav-link-wrapper">
+          <a href="projects.html">Project Portfolio</a>
+        </div>
+      </div>
+    </header>
+<div class="divider"></div>
+    <div class="container">
+      <div class="left-side">
+        <h1>
+Hey there!<br> <span class="green"> I'm Temitope. </span>
+          
+        </h1>
+        <p>
+          I'm a software engineer who loves creating high-quality software with a flair for solving problems, transforming user experience through creative coding. I'm eager to learn and adapt to newly created technologies , as well as dedicated team player with a strong capacity for creative thought.
+        </p>
+<div class="divider"></div>
+    <h2><span>Contact Me:</span></h2>
+        <div class="icons">
+        <a href="https://www.twitter.com/afristorm3">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/temitopeowolabi">
+                 <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/afristorm-3">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="mailto:temitope.owolabi@afristorm3.tech">
+                <i class="fas fa-envelope"></i>
+           </a>
+            </div>      </div>
+      
+      <div class="right-side"><br>
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          
+          
+        </a>
+       
+      </div>
+      
+    </div>
+   
+    <footer class="footer">
+    <p class="copyright">Copyright &copy;2023 Temitope  Owolabi</p>
+  </footer>
+    
+  </body>
+  <script>
+  // script.js
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlides() {
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds (2000 milliseconds)
+}
+
+showSlides(); // Start the slideshow
+
+  
+  
+  </script>
+</html>
